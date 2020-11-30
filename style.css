@@ -1,0 +1,58 @@
+* {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+    .background{
+        background-color: lightgreen
+    }
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+h2 {
+    margin-left: 10px;
+    margin-right: auto;
+    width: 11em
+}
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em
+}
+
+
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+.result {
+    font-size: 35px;
+}
+
+.tryk {
+    margin-left: auto;
+    margin-right: auto;
+    width: 0;
+    border: 120px solid transparent; 
+    border-bottom: 120px solid green;
+}
+
+#calculate {
+    
+    font-size: 24px;
+    background-color: lightblue;
+    color: black;
+    border: 3px solid blue;
+    border-radius: 7px;
+    transition-duration: 0.8s;
+    padding: 15px 20px;
+}
+
+#calculate:hover {
+
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="background">
+<h1>Варіант 5</h1>
+
+<h2>Обчислення катету:</h2>
+
+    <tr>
+        <td><label for="hip">Введіть гіпотенузу: </label></td>
+        <td><input type="number" id="hip" name="hip" placeholder="гіпотенуза"></td>
+    </tr>
+
+    <tr>
+        <td><label for="kat">Введіть перший катет: </label></td>
+        <td><input type="number" id="kat" name="kat" placeholder="катет"></td>
+    </tr>
+
+    
+    <tr>
+        <td colspan="2"><input type="submit" id="calculate" value="Обчислити катет"
+                               onclick="calculateHypotenuse()"></td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <div class="result" id="result"></div>
+        </td>
+    </tr>
+
+
+<h3>Побудова трикутника:</h3>
+<div class="tryk" >
+</div>
+
+</div>
+</body>
+</html>
